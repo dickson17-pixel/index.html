@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FSTEAD - MRU</title>
+</head>
+<body style="margin:0; font-family:Arial, sans-serif; background-color:#ffffff; color:#002147;">
+
+  <header style="background-color:#002147; color:#ffffff; padding:15px; text-align:center; position:fixed; top:0; left:0; width:100%; z-index:1000;">
+    <h1 style="margin:0; font-size:22px;">FSTEAD - MRU</h1>
+    <nav style="margin-top:8px;">
+      <a href="#home" style="margin:0 15px; color:#ffffff; text-decoration:none; font-weight:bold;">Home</a>
+      <a href="#about" style="margin:0 15px; color:#ffffff; text-decoration:none; font-weight:bold;">About Us</a>
+      <a href="#contact" style="margin:0 15px; color:#ffffff; text-decoration:none; font-weight:bold;">Contact</a>
+    </nav>
+  </header>
+
+  <div style="display:flex; margin-top:80px;">
+    <div style="width:220px; background-color:#cce6ff; padding-top:20px; min-height:100vh; position:fixed; top:80px; left:0; border-right:2px solid #002147;">
+      <h3 style="color:#002147; text-align:center; margin-bottom:20px;">DASHBOARD</h3>
+      <a href="#profile" style="display:block; color:#002147; padding:15px; text-decoration:none; font-weight:bold; border-bottom:1px solid #ccc;">👤 My Profile</a>
+      <a href="#settings" style="display:block; color:#002147; padding:15px; text-decoration:none; font-weight:bold; border-bottom:1px solid #ccc;">⚙ Settings</a>
+      <a href="#notices" style="display:block; color:#002147; padding:15px; text-decoration:none; font-weight:bold; border-bottom:1px solid #ccc;">📢 Notices</a>
+      <a href="#resources" style="display:block; color:#002147; padding:15px; text-decoration:none; font-weight:bold; border-bottom:1px solid #ccc;">📚 Resources</a>
+    </div>
+
+    <div style="flex:1; margin-left:220px; padding:20px;">
+      <div style="background:url('https://via.placeholder.com/1200x300.png?text=Faculty+of+Science+and+Technology') no-repeat center; background-size:cover; height:250px; border-radius:10px; margin-bottom:20px;"></div>
+
+      <h2 style="color:#002147; margin-top:0;">Welcome to the Faculty of Science and Technology</h2>
+      <p style="line-height:1.6;">
+        The Faculty of Science and Technology at Muteesa I Royal University is dedicated to producing highly skilled graduates 
+        who are capable of addressing modern challenges in the fields of computing, engineering, and data-driven innovations.
+        Our programs are designed to balance theory and practice, equipping students with the tools they need to thrive in a competitive world.
+      </p>
+
+      <h2 style="color:#002147;">COURSES OFFERED</h2>
+      <table style="width:100%; border-collapse:collapse; margin-top:20px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+        <tr>
+          <th style="border:1px solid #002147; padding:12px; background-color:#002147; color:#ffffff;">Course Code</th>
+          <th style="border:1px solid #002147; padding:12px; background-color:#002147; color:#ffffff;">Course</th>
+          <th style="border:1px solid #002147; padding:12px; background-color:#002147; color:#ffffff;">Duration</th>
+        </tr>
+        </td>
+        <tr>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">IT202</td>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">Bachelor of Information Technology</td>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">3 Years</td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">ENG303</td>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">Bachelor of Software Engineering</td>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">4 Years</td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">DIT 1102</td>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">Diploma in information Technology</td>
+          <td style="border:1px solid #002147; padding:12px; text-align:center;">2 Years</td>
+        </tr>
+      </table>
+
+      <h2 id="about" style="color:#002147;">About Us</h2>
+      <p style="line-height:1.6;">
+        Our faculty nurtures innovation and creativity through research, collaboration, and community engagement. 
+        We emphasize practical learning supported by modern laboratories and highly qualified staff, preparing students 
+        to contribute meaningfully to society.Students get practical skills through regular practice.
+      </p>
+
+      <h2 id="contact" style="color:#002147;">Contact</h2>
+      <p style="line-height:1.6;">
+        📍 Muteesa I Royal University, Kampala, Uganda <br>
+        📞 +256 700 000 000 <br>
+        📧 fst@mru.ac.ug
+      </p>
+    </div>
+  </div>
+
+  <footer style="background-color:#002147; color:white; text-align:center; padding:10px; margin-top:20px;">
+    &copy; <span id="year"></span> Muteesa I Royal University - Faculty of Science and Technology | All Rights Reserved
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
